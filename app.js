@@ -74,6 +74,7 @@ app.post("/list", async (req, res) => {
 
   // get each
   app.get("/:id", (req, res) => {
+    console.log(req);
     res.send("succes test");
   });
 });
